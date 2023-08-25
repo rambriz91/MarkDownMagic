@@ -1,38 +1,10 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./Assets/utils/generateMarkdown');
+
+module.imports = generateMarkdown;
 
 // TODO: Create an array of questions for user input
-const questions = ({title, description, installation, usage, contribution, license, github}) => 
-`# ${title}
-
-## Table of Contents
-
-## Description
-
-${description}
-
-## Installation Instructions 
-
-${installation}
-
-## Usage
-
-${usage}
-
-## Contribution Guidelines 
-
-${contribution}
-
-## License
-${license}
-
-${license.text}
-
-
-## Questions
-    www.github.com/${github}
-`;
-
 inquirer
     .prompt([
         {
@@ -65,13 +37,17 @@ inquirer
             name: 'license',
             message: 'Please select one of the following licenses.',
             choices: ['MIT', 'Apache 2.0', 'IBM', 'ISC']
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Please enter your github username.'
         }
     ])
-.then((answers) => {
-// TODO: Create a function to write README file
-//let fileName = 'README.md'
-console.log(answers)
-//function writeToFile(fileName, answers) {}
+.then((data) => {
+fs.writeFile('genReadme.md', generateMarkdown(data), (err) =>
+err ? console.log(err) : console.log('Success!')
+);
 })
 // TODO: Create a function to initialize app
 function init() {}
