@@ -1,26 +1,41 @@
-# Readme Gen
+# ababad   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents
   
   ## Description
   
-  Creates a readme from node js
+  ababd
   
   ## Installation Instructions 
   
-  npm init -y then npm i inquirer@8.2.4
+  abad
   
   ## Usage
   
-  node index
+  bab
   
   ## Contribution Guidelines 
   
-  add your git username to readme.md
+  abafa
   
   ## License
   Apache 2.0
-  
+  Copyright [yyyy] [name of copyright owner]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+ 
+      http://www.apache.org/licenses/LICENSE-2.0
+ 
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+  https://opensource.org/license/apache-2-0/
   ## Questions
-      www.github.com/rambriz91
+      Github URL: https://www.github.com/faddva
+      Email: babba
   
