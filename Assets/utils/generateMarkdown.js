@@ -135,12 +135,13 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   - [Description](#description)
-  - [Installation](#installation)
+  - [Installation](#installation-instructions)
   - [Usage](#usage)
-  - [Contribution](#contribution)
+  - [Contribution](#contribution-guidelines)
   - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
+
   ## Description
   
   ${data.description}
@@ -157,7 +158,7 @@ function generateMarkdown(data) {
   
   ${data.contribution}
 
-  ##Tests
+  ## Tests
 
   ${data.test}
   
@@ -167,6 +168,7 @@ function generateMarkdown(data) {
 
   ${licenseLink}
   ## Questions
+  For any questions related to this project, feel free to reach me at the links below.
       Github URL: https://www.github.com/${data.github}
       Email: ${data.email}
   `;

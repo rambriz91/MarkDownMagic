@@ -1,22 +1,33 @@
-# ababad   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Readme Generator   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents
-  
+  - [Description](#description)
+  - [Installation](#installation-instructions)
+  - [Usage](#usage)
+  - [Contribution](#contribution-guidelines)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Questions](#questions)
+
   ## Description
   
-  ababd
+  This app allows a user to create a readme via node js and inquirer prompts.
   
   ## Installation Instructions 
   
-  abad
+  npm init -y, then npm i inquirer@8.2.4.
   
   ## Usage
   
-  bab
+  To initialize the app user must first open up a git bash terminal and input node index, then respond to the inquirer prompts.
   
   ## Contribution Guidelines 
   
-  abafa
+  include your github username in the project readme.
+
+  ## Tests
+
+  N/A
   
   ## License
   Apache 2.0
@@ -36,6 +47,7 @@
 
   https://opensource.org/license/apache-2-0/
   ## Questions
-      Github URL: https://www.github.com/faddva
-      Email: babba
+  For any questions related to this project, feel free to reach me at the links below.
+      Github URL: https://www.github.com/rambriz91
+      Email: rambriz91@gmail.com
   
